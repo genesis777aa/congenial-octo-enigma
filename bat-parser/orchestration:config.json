@@ -1,6 +1,0 @@
-{
-  "sql": { "host": "localhost", "port": 5432, "database": "custom_db" },
-  "pascal": { "auto_update": true, "source_dir": "./pascal/src" },
-  "github": { "username": "genesis777aa", "output_dir": "../output" },
-  "pre_trained": { "dir": "../testing" }
-}
