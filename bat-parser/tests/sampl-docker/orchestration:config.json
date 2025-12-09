@@ -1,0 +1,18 @@
+{
+  "sql": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "custom_db",
+    "user": "admin",
+    "password": "secure_password"
+  },
+  "pascal": {
+    "auto_update": true,
+    "source_dir": "./pascal/src",
+    "log_dir": "./pascal/logs"
+  },
+  "github": {
+    "username": "genesis777aa",
+    "output_dir": "../output"
+  }
+}

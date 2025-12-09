@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Start custom SQL (ARM32)
+./custom_sql --config config.json &
+
+# Start Pascal compiler
+cd pascal
+./compile.sh &  # Auto-recompiles every 60s
+cd ..
+
+# Start GitHub parser
+cd ../parser
+npm install
+node index.js &
+
+# Wait
+wait

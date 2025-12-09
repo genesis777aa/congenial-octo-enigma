@@ -1,0 +1,5 @@
+Action,Command
+Start Orchestration,./orchestration/paperclip.sh
+Stop Orchestration,pkill -f paperclip.sh
+Pascal Logs,tail orchestration/pascal/logs/*
+Update Pascal,cd orchestration/pascal && ./compile.sh
